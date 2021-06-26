@@ -1,0 +1,21 @@
+/*This is combined selector */
+h1#heading{
+color:red;
+}
+
+/* This is Hierarchical selectors*/
+.container-fluid .title{
+color:blue;
+background-color:#ef8172;
+}
+/* the priority goes : [inline styles > id > classes > tags]*/
+/* inline styles > internal styles > external styles */
+h2{
+background-color:#ef8172;
+}
+.title2{
+background-color:yellow;
+}
+#second{
+background-color:blue;
+}

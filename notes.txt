@@ -1,0 +1,24 @@
+--css advance:
+
+when we want to adjust the things for phones, using css media query
+
+Syntax : @media <type><feature>
+Eg. @media screen (min-width:900px){
+//do something
+}
+
+topic 2: combining selectors
+1.multiple selectors
+
+Syntax : selector1,selector2{
+            //do something
+            }
+2.Hierarchical selectors- based on how html is structured. Here the space is must.Selector1 belongs to parent and selector2 belongs to parent.
+Always read the selectors from the right to the left.
+Syntax : selector1 selector2{
+            //do something
+            }
+3.Combined selectors-there is no space between 2 selectors you are combining. When there is no space read from left to right.Here the selector1 has the selector 2 not as a child but inline to it.
+Syntax: selector1selector2{
+            //do something
+            }
